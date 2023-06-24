@@ -104,7 +104,7 @@ public class AuthService {
        
        String token = generateVerificationToken(user);
         
-    	/*
+    	
     	String message = mailContentBuilder.build("Thank you for signing up to our journey, " +
 		           "please click on the below url to activate your account : <br/>" +
 		           Constants.ACTIVATION_EMAIL + "/"+token);
@@ -114,7 +114,7 @@ public class AuthService {
     							user.getEmail(),
     							message
     						)
-    					);*/
+    					);
 	}
 	
    return result;
